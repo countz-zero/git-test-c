@@ -4,7 +4,8 @@
 
 int main(void) {
 
-    char *word = "racecars";
+    char *word[100];
+    scanf("%s", word);
     int length = strlen(word);
     bool is_palindrome = true; 
 
